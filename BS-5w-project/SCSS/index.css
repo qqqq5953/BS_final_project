@@ -1,0 +1,40 @@
+.sponsorPlan {
+  position: relative;
+}
+
+.sponsorPlan:before,
+.sponsorPlan:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  background: #FFDF65;
+  width: 41.6%;
+  height: 3px;
+}
+
+@media (max-width: 1112px) {
+  .sponsorPlan:before,
+  .sponsorPlan:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    background: #FFDF65;
+    width: 33.7%;
+    height: 3px;
+  }
+}
+
+.sponsorPlan:before {
+  left: 0px;
+}
+
+.sponsorPlan:after {
+  right: 0px;
+}
+
+@media (max-width: 992px) {
+  .sponsorButton {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=index.css.map */

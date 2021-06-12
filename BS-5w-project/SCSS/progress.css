@@ -1,0 +1,19 @@
+.moreProgress {
+  color: #FF785E;
+  font-family: 'Baloo Tamma 2', cursive;
+  font-weight: 700;
+  letter-spacing: 0.7px;
+}
+
+.progressImageBorder {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+@media (max-width: 768px) {
+  .progressImageMobileSize {
+    width: 135px;
+    height: 132px;
+  }
+}
+/*# sourceMappingURL=progress.css.map */

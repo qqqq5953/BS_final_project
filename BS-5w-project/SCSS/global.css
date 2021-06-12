@@ -1,0 +1,190 @@
+body {
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+@media (min-width: 992px) {
+  .fs-lg-2 {
+    font-size: 32px !important;
+  }
+  .fs-lg-5 {
+    font-size: 20px !important;
+  }
+  .fs-lg-7 {
+    font-size: 16px !important;
+  }
+}
+
+.lh-sm-md {
+  line-height: 1.45;
+}
+
+.lh-md {
+  line-height: 1.7;
+}
+
+.lh-md-lg {
+  line-height: 1.75;
+}
+
+.ls-1 {
+  letter-spacing: 3px;
+}
+
+.ls-2 {
+  letter-spacing: 2px;
+}
+
+@media (max-width: 992px) {
+  .ls-lg-2 {
+    letter-spacing: 1.71px !important;
+  }
+}
+
+.ls-3 {
+  letter-spacing: 1.92px;
+}
+
+.ls-4 {
+  letter-spacing: 1.8px;
+}
+
+.ls-5 {
+  letter-spacing: 1.1px;
+}
+
+.ls-6 {
+  letter-spacing: 0.8px;
+}
+
+.ls-7 {
+  letter-spacing: 0.7px;
+}
+
+.ls-8 {
+  letter-spacing: 0.49px;
+}
+
+.fw-medium {
+  font-weight: 500;
+}
+
+.loginPage-register {
+  position: relative;
+}
+
+.loginPage-register:before,
+.loginPage-register:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  background: #E8E8DB;
+  width: 132px;
+  height: 1px;
+}
+
+.loginPage-register:before {
+  left: 0px;
+}
+
+.loginPage-register:after {
+  right: 0px;
+}
+
+.socialMediaIcon-size {
+  height: 30px;
+  width: 30px;
+}
+
+.socialMediaIcon-size:hover {
+  background-color: #FF785E !important;
+}
+
+.roundedBigImg {
+  border-radius: 2rem;
+}
+
+.smallIconSize {
+  width: 20px;
+  height: 20px;
+}
+
+@media (min-width: 576px) {
+  .smallIconSize-sm {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+.contactUS {
+  padding: 4px 14px 6px;
+}
+
+.sponsorPlanButton:hover {
+  background-color: #FF785E;
+  border-color: #FF785E;
+  color: #fff !important;
+}
+
+.followPlanButton:hover,
+.shareButton:hover {
+  background-color: #FFDF65;
+  border-color: #FFDF65;
+  color: #858377;
+}
+
+.followPlanButton:hover .fa-heart,
+.shareButton:hover .fa-heart {
+  color: #FF785E;
+}
+
+.fixedBtnBorderRadius {
+  border-radius: 0;
+}
+
+.navTab {
+  border-bottom: 2px white solid;
+  padding-top: 22px;
+  padding-bottom: 22px;
+}
+
+.navTab:hover {
+  border-bottom: 2px #FFDF65 solid;
+  font-weight: 500;
+}
+
+.numberFont {
+  font-family: 'Baloo Tamma 2', cursive;
+  font-weight: 600;
+}
+
+.fundingCountDown {
+  padding: 14px;
+}
+
+.chooseOnePlan {
+  border-radius: 0.5rem;
+  padding-top: 6px;
+  padding-bottom: 5px;
+}
+
+.roundedEight {
+  border-radius: 0.5rem;
+}
+
+.tagPadding {
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.listStyle-none {
+  list-style: none;
+}
+
+.textUnderlineHover:hover {
+  text-decoration: underline;
+}
+
+.placeholderStyle {
+  color: #999999;
+}
+/*# sourceMappingURL=global.css.map */
